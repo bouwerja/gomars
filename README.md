@@ -6,7 +6,7 @@ GOMARS is a high-concurrency, extensible simulation framework built in Go. It is
 
 ---
 
-1. General Summary
+### General Summary
 
 GOMARS provides the primitives needed to build and run large-scale market simulations. Unlike simulators tied to specific financial assets, GOMARS treats a "market" as a general system of Agents, Assets, and Matching Engines.
 Key Features:
@@ -21,7 +21,7 @@ Modular Design: Easily swap out matching logic or pricing rules without rewritin
 
 ---
 
-1. Project Motivation
+### Project Motivation
 
 The world is driven by markets—not just for stocks, but for energy, labor, attention, and hardware. Most existing simulation tools are either:
 
@@ -29,11 +29,13 @@ Too Niche: Hard-coded for specific financial instruments.
 
 Too Slow: Built in interpreted languages that struggle with millions of agent interactions.
 
+Too Expensive: Most tools are behind a pay wall.
+
 GOMARS was created to bridge this gap. The goal is to provide a "Standard Library for Markets" that allows researchers and developers to spin up a complex economic environment in minutes, ensuring the simulation is as fast as the real-world systems it mimics.
 
 ---
 
-1. Project Timeline (Roadmap).
+### Project Timeline (Roadmap)
 
 🏗 Phase 1: Foundations (Current)
 
@@ -53,9 +55,11 @@ GOMARS was created to bridge this gap. The goal is to provide a "Standard Librar
 - Integration with Prometheus/Grafana for live simulation monitoring.
 - Distributed simulation support (multi-node clusters).
 
+👀 Phase 4: Visual Interface for No-Code implementations
+
 ---
 
-1. Getting Started
+### Getting Started
 
 - Prerequisites
 
@@ -86,6 +90,6 @@ func main() {
 
 ---
 
-1. License
+### License
 
 This project is licensed under the Apache License 2.0. See the LICENSE file for details. This license requires attribution but allows for commercial use and protects contributors through explicit patent grants.
