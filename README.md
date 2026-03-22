@@ -25,7 +25,8 @@ The world is driven by markets—not just for stocks, but for energy, labor, att
 
     Too Slow: Built in interpreted languages that struggle with millions of agent interactions.
 
-GOMARS was created to bridge this gap. The goal is to provide a "Standard Library for Markets" that allows researchers and developers to spin up a complex economic environment in minutes, ensuring the simulation is as fast as the real-world systems it mimics. 3. Project Timeline (Roadmap)
+GOMARS was created to bridge this gap. The goal is to provide a "Standard Library for Markets" that allows researchers and developers to spin up a complex economic environment in minutes, ensuring the simulation is as fast as the real-world systems it mimics. 3. Project Timeline (Roadmap).
+
 🏗 Phase 1: Foundations (Current)
 
     Define core Agent and Market interfaces.
