@@ -1,6 +1,6 @@
 GOMARS (Golang Market Simulator)
 
-![Go Report Card](<https://goreport> card.com/badge/github.com/bouwerja/gomars)
+![Go Report Card](https://goreportcard.com/badge/github.com/bouwerja/gomars)
 
 GOMARS is a high-concurrency, extensible simulation framework built in Go. It is designed to model complex market dynamics—from traditional order-book exchanges to decentralized resource allocation and agent-based economic systems.
 
