@@ -52,18 +52,22 @@ GOMARS was created to bridge this gap. The goal is to provide a "Standard Librar
     Distributed simulation support (multi-node clusters).
 
 4.  Getting Started
-    Prerequisites
 
-        Go 1.21+
+- Prerequisites
 
-Installation
-Bash
+```
+Go 1.21+
+```
 
+- Installation
+
+```Bash
 go get github.com/bouwerja/gomars
+```
 
-Quick Start
-Go
+- Quick Start
 
+```go
 package main
 
 import (
@@ -74,6 +78,7 @@ import (
 func main() {
 // Your code here
 }
+```
 
 1. License
 
